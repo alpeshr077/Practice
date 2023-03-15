@@ -23,6 +23,7 @@ public class MainActivity extends AppCompatActivity {
 
         IdWeb = findViewById(R.id.IdWeb);
 
+
         WebSettings settings = IdWeb.getSettings();
         settings.setJavaScriptEnabled(true);
         IdWeb.loadUrl(url);
